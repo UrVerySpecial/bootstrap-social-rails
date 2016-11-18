@@ -6,7 +6,7 @@
 [bootstrap-social](https://github.com/lipis/bootstrap-social/) for Rails asset pipeline
 
 - bootstrap-social version: [4.12.0](https://github.com/lipis/bootstrap-social/releases/tag/4.12.0)
-
+- add Yahoo Japan button
 ## Installation
 
 1. Add to your `Gemfile` and install with bundler:
