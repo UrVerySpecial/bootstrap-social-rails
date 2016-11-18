@@ -145,3 +145,49 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled.focus,.btn-yahoo[disabled].focus,fieldset[disabled] .btn-yahoo.focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+
+
+/*add yahoo japan*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('./fonts/icomoon.eot?mrktn9');
+    src:    url('./fonts/icomoon.eot?mrktn9#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?mrktn9') format('truetype'),
+    url('./fonts/icomoon.woff?mrktn9') format('woff'),
+    url('./fonts/icomoon.svg?mrktn9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: xx-small;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yahoojp:before {
+    content: "\e900";
+}
+.btn-yahoojp {
+    color: white;
+    background-color: #fd0033;
+}
+.btn-yahoojp:hover,
+.btn-yahoojp:focus,
+.btn-yahoojp.focus {
+    color: white;
+    text-decoration: none;
+    background-color: #ca0029;
+}
+.btn-yahoojp span {
+    font-size: 1.2em !important;
+}
