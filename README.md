@@ -6,7 +6,14 @@
 [bootstrap-social](https://github.com/lipis/bootstrap-social/) for Rails asset pipeline
 
 - bootstrap-social version: [4.12.0](https://github.com/lipis/bootstrap-social/releases/tag/4.12.0)
-- add Yahoo Japan button
+- *add Yahoo Japan button*
+```
+<button type="submit" class="btn btn-block btn-social btn-yahoo">
+  <span class="fa fa-yahoo"></span>
+  <%= t 'views.login.buttons.social',social_type: 'Yahoo' %>
+</button>
+```
+
 ## Installation
 
 1. Add to your `Gemfile` and install with bundler:
